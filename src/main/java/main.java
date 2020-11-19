@@ -1,7 +1,6 @@
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.lang.invoke.SwitchPoint;
 
 public class main {
     public static void main(String[] args) {
@@ -12,7 +11,7 @@ public class main {
 
 
         while (true) {
-            String command = null;
+            String command = "";
             try {
                 System.out.print("*******Enter command*******\nCommand: ");
                 command = reader.readLine();
